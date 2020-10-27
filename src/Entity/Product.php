@@ -28,7 +28,7 @@ class Product
     private $description;
 
     /**
-     * @ORM\Column(type="text")
+     * @ORM\Column(type="string", length=255)
      */
     private $image;
 
